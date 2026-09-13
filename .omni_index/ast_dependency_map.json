@@ -1,0 +1,993 @@
+[
+  {
+    "file": "uv.lock",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "pyproject.toml",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "README.md",
+    "dependencies": [
+      "soundfile",
+      "LaleluVoice",
+      "laleluvoice",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "LICENSE",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": ".gitignore",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/training.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/LaleluVoice.ipynb",
+    "dependencies": [
+      "files",
+      "soundfile",
+      "LaleluVoice",
+      "google.colab",
+      "IPython.display",
+      "Audio",
+      "laleluvoice",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/voice-design.md",
+    "dependencies": [
+      "LaleluVoice",
+      "laleluvoice",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/data_preparation.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/data_preparation_advanced.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/generation-parameters.md",
+    "dependencies": [
+      "laleluvoice",
+      "LaleluVoiceGenerationConfig"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/tips.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/lang_id_name_map.tsv",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/evaluation.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "docs/languages.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/run_finetune.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/README.md",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/run_eval.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/run_emilia.sh",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/config/train_config_finetune.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/config/train_config_emilia.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/config/data_config_emilia.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/config/ds_config_zero2.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/config/data_config_finetune.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "examples/config/train_config_multilingual.json",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/__init__.py",
+    "dependencies": [
+      "importlib.metadata",
+      "laleluvoice.models.laleluvoice",
+      "PackageNotFoundError",
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/__init__.py",
+    "dependencies": [
+      "warnings"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/utils.py",
+    "dependencies": [
+      "torchaudio",
+      "soundfile",
+      "logging",
+      "typing",
+      "Optional",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/models/utmos.py",
+    "dependencies": [
+      "Tensor",
+      "torch.nn.functional",
+      "math",
+      "typing",
+      "List",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/models/ecapa_tdnn_wavlm.py",
+    "dependencies": [
+      "os",
+      "torch.nn.functional",
+      "torch.nn",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/mos/utmos.py",
+    "dependencies": [
+      "read_test_list",
+      "ProcessPoolExecutor",
+      "traceback",
+      "argparse",
+      "multiprocessing",
+      "laleluvoice.eval.utils",
+      "laleluvoice.eval.models.utmos",
+      "os",
+      "logging",
+      "concurrent.futures",
+      "UTMOS22Strong",
+      "laleluvoice.utils.data_utils",
+      "numpy",
+      "sys",
+      "tqdm",
+      "load_eval_waveform",
+      "warnings",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/wer/fleurs.py",
+    "dependencies": [
+      "ProcessPoolExecutor",
+      "multiprocessing",
+      "lalelulingual_asr.models.inference.pipeline",
+      "numpy",
+      "lalelulingual_asr.models.wav2vec2_llama.lang_ids",
+      "defaultdict",
+      "text_normalize",
+      "torch",
+      "read_test_list",
+      "traceback",
+      "collections",
+      "pathlib",
+      "laleluvoice.utils.data_utils",
+      "ASRInferencePipeline",
+      "Path",
+      "typing",
+      "types",
+      "supported_langs",
+      "re",
+      "argparse",
+      "logging",
+      "concurrent.futures",
+      "tqdm",
+      "laleluvoice.eval.wer.text_norm_lalelu",
+      "os",
+      "laleluvoice.eval.wer.common",
+      "log_metrics",
+      "sys",
+      "List"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/wer/minimax.py",
+    "dependencies": [
+      "ProcessPoolExecutor",
+      "multiprocessing",
+      "numpy",
+      "AutoModel",
+      "defaultdict",
+      "load_eval_waveform",
+      "text_normalize",
+      "read_test_list",
+      "torch",
+      "traceback",
+      "collections",
+      "pathlib",
+      "laleluvoice.utils.data_utils",
+      "transformers",
+      "zhconv",
+      "Path",
+      "typing",
+      "argparse",
+      "laleluvoice.eval.utils",
+      "logging",
+      "concurrent.futures",
+      "tqdm",
+      "funasr",
+      "laleluvoice.eval.wer.text_norm_lalelu",
+      "os",
+      "laleluvoice.eval.wer.common",
+      "log_metrics",
+      "List"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/wer/sensevoice.py",
+    "dependencies": [
+      "ProcessPoolExecutor",
+      "cn2an",
+      "multiprocessing",
+      "AutoModel",
+      "text_normalize",
+      "read_test_list",
+      "torch",
+      "traceback",
+      "pathlib",
+      "laleluvoice.utils.data_utils",
+      "zhconv",
+      "Path",
+      "re",
+      "argparse",
+      "logging",
+      "concurrent.futures",
+      "tqdm",
+      "funasr",
+      "laleluvoice.eval.wer.text_norm_lalelu",
+      "os",
+      "laleluvoice.eval.wer.common",
+      "log_metrics"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/wer/norm_config_module.py",
+    "dependencies": [
+      "os",
+      "re"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/wer/punctuations.lst",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/wer/seedtts.py",
+    "dependencies": [
+      "ProcessPoolExecutor",
+      "multiprocessing",
+      "zhon.hanzi",
+      "numpy",
+      "AutoModel",
+      "string",
+      "load_eval_waveform",
+      "torch",
+      "read_test_list",
+      "traceback",
+      "pathlib",
+      "laleluvoice.utils.data_utils",
+      "transformers",
+      "zhconv",
+      "Path",
+      "argparse",
+      "laleluvoice.eval.utils",
+      "logging",
+      "concurrent.futures",
+      "tqdm",
+      "funasr",
+      "punctuation",
+      "os",
+      "laleluvoice.eval.wer.common",
+      "process_one"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/wer/text_norm_lalelu.py",
+    "dependencies": [
+      "unicodedata",
+      "unidecode",
+      "re",
+      "laleluvoice.eval.wer.norm_config_module"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/wer/common.py",
+    "dependencies": [
+      "compute_measures",
+      "numpy",
+      "logging",
+      "jiwer"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/wer/hubert.py",
+    "dependencies": [
+      "ProcessPoolExecutor",
+      "multiprocessing",
+      "numpy",
+      "load_eval_waveform",
+      "torch",
+      "read_test_list",
+      "traceback",
+      "pathlib",
+      "laleluvoice.utils.data_utils",
+      "transformers",
+      "Path",
+      "re",
+      "argparse",
+      "laleluvoice.eval.utils",
+      "logging",
+      "concurrent.futures",
+      "tqdm",
+      "os",
+      "laleluvoice.eval.wer.common",
+      "process_one"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/eval/speaker_similarity/sim.py",
+    "dependencies": [
+      "read_test_list",
+      "ProcessPoolExecutor",
+      "traceback",
+      "argparse",
+      "multiprocessing",
+      "laleluvoice.eval.utils",
+      "os",
+      "ECAPA_TDNN_WAVLM",
+      "logging",
+      "concurrent.futures",
+      "laleluvoice.utils.data_utils",
+      "numpy",
+      "sys",
+      "tqdm",
+      "laleluvoice.eval.models.ecapa_tdnn_wavlm",
+      "load_eval_waveform",
+      "warnings",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/models/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/models/laleluvoice.py",
+    "dependencies": [
+      "difflib",
+      "laleluvoice.utils.audio",
+      "add_punctuation",
+      "numpy",
+      "functools",
+      "LANG_IDS",
+      "laleluvoice.utils.voice_design",
+      "torch",
+      "pipeline",
+      "ModelOutput",
+      "torch.nn.functional",
+      "laleluvoice.utils.text",
+      "CONFIG_MAPPING",
+      "dataclasses",
+      "transformers",
+      "torch.nn",
+      "math",
+      "huggingface_hub",
+      "snapshot_download",
+      "typing",
+      "re",
+      "laleluvoice.utils.lang_map",
+      "logging",
+      "partial",
+      "Any",
+      "RuleDurationEstimator",
+      "transformers.modeling_outputs",
+      "os",
+      "dataclass",
+      "torchaudio",
+      "torch.nn.attention.flex_attention",
+      "transformers.models.auto",
+      "laleluvoice.utils.duration",
+      "create_block_mask"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/cli/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/cli/train.py",
+    "dependencies": [
+      "laleluvoice.training.config",
+      "argparse",
+      "build_dataloaders",
+      "LaleluTrainer",
+      "laleluvoice.training.builder",
+      "laleluvoice.training.trainer",
+      "TrainingConfig"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/cli/demo.py",
+    "dependencies": [
+      "argparse",
+      "LANG_NAMES",
+      "LaleluVoice",
+      "laleluvoice.utils.lang_map",
+      "logging",
+      "Any",
+      "laleluvoice",
+      "numpy",
+      "typing",
+      "gradio",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/cli/infer.py",
+    "dependencies": [
+      "laleluvoice.models.laleluvoice",
+      "argparse",
+      "laleluvoice.utils.common",
+      "soundfile",
+      "LaleluVoice",
+      "logging",
+      "str2bool",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/cli/infer_batch.py",
+    "dependencies": [
+      "ProcessPoolExecutor",
+      "laleluvoice.models.laleluvoice",
+      "multiprocessing",
+      "laleluvoice.utils.audio",
+      "torch",
+      "read_test_list",
+      "traceback",
+      "laleluvoice.utils.data_utils",
+      "typing",
+      "argparse",
+      "logging",
+      "concurrent.futures",
+      "RuleDurationEstimator",
+      "tqdm",
+      "laleluvoice.utils.common",
+      "time",
+      "os",
+      "LaleluVoice",
+      "soundfile",
+      "load_audio",
+      "signal",
+      "laleluvoice.utils.duration",
+      "str2bool",
+      "List"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "laleluvoice/scripts/extract_audio_tokens.py",
+    "dependencies": [
+      "multiprocessing",
+      "io",
+      "numpy",
+      "torch",
+      "pathlib",
+      "tqdm.auto",
+      "transformers",
+      "Path",
+      "typing",
+      "warnings",
+      "argparse",
+      "logging",
+      "concurrent.futures",
+      "Any",
+      "tqdm",
+      "FIRST_COMPLETED",
+      "json",
+      "laleluvoice.utils.common",
+      "webdataset",
+      "JsonlDatasetReader",
+      "laleluvoice.data.dataset",
+      "DataLoader",
+      "os",
+      "torch.utils.data",
+      "AutoFeatureExtractor",
+      "str2bool"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/scripts/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/scripts/extract_audio_tokens_add_noise.py",
+    "dependencies": [
+      "multiprocessing",
+      "io",
+      "laleluvoice.utils.audio",
+      "numpy",
+      "torch",
+      "pathlib",
+      "tqdm.auto",
+      "torch.nn.functional",
+      "transformers",
+      "math",
+      "load_audio_bytes",
+      "Path",
+      "typing",
+      "warnings",
+      "argparse",
+      "logging",
+      "concurrent.futures",
+      "Any",
+      "tqdm",
+      "FIRST_COMPLETED",
+      "json",
+      "random",
+      "laleluvoice.utils.common",
+      "webdataset",
+      "JsonlDatasetReader",
+      "laleluvoice.data.dataset",
+      "DataLoader",
+      "os",
+      "torch.utils.data",
+      "AutoFeatureExtractor",
+      "str2bool"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/scripts/denoise_audio.py",
+    "dependencies": [
+      "io",
+      "time.",
+      "numpy",
+      "torch.",
+      "torch",
+      "StreamLengthGroupDataset",
+      "pathlib",
+      "tqdm.auto",
+      "struct",
+      "pickle",
+      "dataclasses",
+      "annotations",
+      "Path",
+      "typing",
+      "argparse",
+      "logging",
+      "concurrent.futures",
+      "Any",
+      "tqdm",
+      "FIRST_COMPLETED",
+      "json",
+      "__future__",
+      "laleluvoice.utils.common",
+      "subprocess",
+      "webdataset",
+      "JsonlDatasetReader",
+      "laleluvoice.data.dataset",
+      "DataLoader",
+      "os",
+      "dataclass",
+      "torchaudio",
+      "soundfile",
+      "threading",
+      "torch.utils.data",
+      "sys",
+      "laleluvoice.data.batching",
+      "str2bool"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/scripts/jsonl_to_webdataset.py",
+    "dependencies": [
+      "multiprocessing",
+      "io",
+      "laleluvoice.utils.audio",
+      "load_waveform",
+      "torch",
+      "pathlib",
+      "islice",
+      "Path",
+      "argparse",
+      "logging",
+      "concurrent.futures",
+      "tqdm",
+      "json",
+      "random",
+      "laleluvoice.utils.common",
+      "webdataset",
+      "os",
+      "torchaudio",
+      "soundfile",
+      "itertools",
+      "str2bool"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/training/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/training/checkpoint.py",
+    "dependencies": [
+      "tqdm.auto",
+      "accelerate",
+      "os",
+      "Accelerator",
+      "logging",
+      "Any",
+      "tqdm",
+      "torch",
+      "shutil",
+      "typing",
+      "time"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/training/builder.py",
+    "dependencies": [
+      "laleluvoice.models.laleluvoice",
+      "laleluvoice.training.config",
+      "PackingIterableDataset",
+      "functools",
+      "torch",
+      "laleluvoice.data.collator",
+      "PackingDataCollator",
+      "transformers",
+      "laleluvoice.data.processor",
+      "typing",
+      "Tuple",
+      "logging",
+      "partial",
+      "transformers.trainer_utils",
+      "TrainingConfig",
+      "LaleluVoiceSampleProcessor",
+      "laleluvoice.data.dataset",
+      "WebDatasetReader",
+      "DataLoader",
+      "LaleluVoice",
+      "torch.utils.data",
+      "AutoConfig",
+      "laleluvoice.data.batching",
+      "seed_worker"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/training/config.py",
+    "dependencies": [
+      "dataclasses",
+      "asdict",
+      "json",
+      "typing",
+      "List"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/training/trainer.py",
+    "dependencies": [
+      "timedelta",
+      "DeepSpeedPlugin",
+      "torch",
+      "accelerate",
+      "Accelerator",
+      "transformers",
+      "math",
+      "laleluvoice.training.checkpoint",
+      "typing",
+      "save_checkpoint",
+      "datetime",
+      "logging",
+      "TrainLogger",
+      "Any",
+      "accelerate.utils",
+      "time",
+      "DataLoader",
+      "os",
+      "torch.utils.data",
+      "sys"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/data/dataset.py",
+    "dependencies": [
+      "IterableDataset",
+      "webdataset",
+      "os",
+      "io",
+      "torch.distributed",
+      "logging",
+      "load_audio",
+      "laleluvoice.utils.audio",
+      "torch.utils.data",
+      "Any",
+      "json",
+      "typing",
+      "random",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/data/collator.py",
+    "dependencies": [
+      "Any",
+      "typing",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/data/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/data/batching.py",
+    "dependencies": [
+      "IterableDataReader",
+      "laleluvoice.data.dataset",
+      "logging",
+      "Any",
+      "bisect",
+      "numpy",
+      "typing"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/data/processor.py",
+    "dependencies": [
+      "Any",
+      "typing",
+      "random",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/utils/data_utils.py",
+    "dependencies": [
+      "pathlib",
+      "logging",
+      "json",
+      "Path"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/utils/__init__.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/utils/voice_design.py",
+    "dependencies": [
+      "re"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/utils/text.py",
+    "dependencies": [
+      "typing",
+      "List"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/utils/lang_map.py",
+    "dependencies": [],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/utils/common.py",
+    "dependencies": [
+      "random",
+      "numpy",
+      "argparse",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "success"
+  },
+  {
+    "file": "laleluvoice/utils/duration.py",
+    "dependencies": [
+      "unicodedata",
+      "lru_cache",
+      "bisect",
+      "typing",
+      "Optional",
+      "functools"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  },
+  {
+    "file": "laleluvoice/utils/audio.py",
+    "dependencies": [
+      "librosa",
+      "pydub",
+      "torchaudio",
+      "soundfile",
+      "io",
+      "logging",
+      "pydub.silence",
+      "numpy",
+      "AudioSegment",
+      "detect_leading_silence",
+      "torch"
+    ],
+    "llama_nemotron_8b_status": "failed",
+    "gemini_embedding_2_status": "failed"
+  }
+]
